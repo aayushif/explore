@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMES</title>
+    <link rel="stylesheet" href="meme.css">
+</head>
+<body>
+  <div class="full-img" id="fullImgBox">
+      <img src="C:\Users\Aayushi\Desktop\memes\img2.jpeg" id="fullImg">
+      <span onclick="closeFullImg()">
+       X   
+      </span>>
+  </div>
+  
+    <div class="img-gallery">
+        
+        <img src="C:\Users\Aayushi\Desktop\memes\img2.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img3.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img4.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img5.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img6.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img4.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img5.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img6.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img7.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img8.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img9.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img10.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img11.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img12.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img13.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+        <img src="C:\Users\Aayushi\Desktop\memes\img14.jpeg" alt="Image" height="400" width="400" onclick="openFullImg(this.src)">
+    </div>
+<script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg= document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex"; 
+        fullImg.src = pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display = "none"; 
+    }
+
+
+    </script>
+</body>
+</html>
